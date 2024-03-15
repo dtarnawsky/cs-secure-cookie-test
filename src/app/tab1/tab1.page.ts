@@ -34,6 +34,7 @@ export class Tab1Page {
     script.type = 'text/javascript';
     script.src = 'assets/js/piano-analytics.js';
     (window as any)._pac = (window as any)._pac || {};
+    // Uncomment this line if you want to use insecure cookies (to prove they work)
     //(window as any)._pac.cookieSecure = false;
 
         script.onload = () => {
